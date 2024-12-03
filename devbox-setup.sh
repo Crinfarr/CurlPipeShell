@@ -1,5 +1,5 @@
 #prereqs
-apt install software-properties-common
+apt install -y software-properties-common
 add-apt-repository ppa:haxe/releases -y
 apt update
 apt install -y curl git make build-essential npm python3 python3-venv haxe
