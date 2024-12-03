@@ -1,8 +1,8 @@
 #prereqs
-apt install -y software-properties-common
+apt install -y software-properties-common curl git make build-essential npm python3 python3-venv python3-launchpadlib
 add-apt-repository ppa:haxe/releases -y
 apt update
-apt install -y curl git make build-essential npm python3 python3-venv haxe
+apt install -y  haxe
 mkdir -p -- ~/.config ~/.config/code-server ~/.haxelib || true
 # haxe
 haxelib setup ~/.haxelib
