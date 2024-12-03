@@ -19,6 +19,6 @@ systemctl enable --now code-server@$USER
 systemctl restart code-server@$USER
 # starship terminal
 sh -c "$(curl -sS https://starship.rs/install.sh)"
-ls /home/*/.bashrc | xargs "echo 'eval \"$(starship init bash)\"' >> "
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
 # apply
 source ~/.bashrc
